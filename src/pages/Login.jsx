@@ -19,7 +19,7 @@ function Login() {
       return;
     }
 
-    axios.post("http://localhost:5000/login",{
+    axios.post("https://netflix-login-befn.onrender.com/login",{
       email: email.trim().toLowerCase(),
       password
     })
