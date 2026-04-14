@@ -26,15 +26,17 @@ border:none;
 border-radius:4px;
 }
 
-button{
-width:100%;
-padding:12px;
-background:#e50914;
-color:white;
-border:none;
-border-radius:4px;
-font-size:16px;
-cursor:pointer;
+button {
+  display: block;
+  width: 150px;       /* set a fixed width */
+  margin: 20px auto;  /* auto centers horizontally */
+  padding: 12px;
+  background: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .error{
